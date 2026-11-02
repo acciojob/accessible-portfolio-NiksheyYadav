@@ -1,2 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 
-/* Your CSS Code here. */
+body{
+  /* padding: 25px; */
+  background-color: black;
+  font-family: 'Montserrat', sans-serif;
+  margin: 0px;
+}
+.title {
+	color: #5C6AC4;
+}
+main {
+	color: white;
+}
+
+header {
+	position: sticky;
+	top: 0;
+}
+
+.navbar {
+	background-color: antiquewhite;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.nav-right-elements {
+	display: flex;
+	gap: 25x;
+}
+
+.navbar a {
+	text-decoration: none;
+	color: black;
+	padding: 10px;
+}
+.navbar span {
+	text-decoration: underline;
+}
+
+/* body paragragph hero section */
+
+.hero-section {
+	display: flex;
+	color: white;
+	justify-content: space-between;
+	padding: 25px;
+}
+.hero-section h1 {
+	font-size: 32px;
+}
+.hero-section p {
+	font-size: 12px;
+}
+
+.hero-section img {
+	display: block;
+	max-width: 697px;
+	max-height: 482px;
+	width: 48%;
+	object-fit: contain;
+}
+
+.hero-content #login-button {
+	width: 105px;
+	padding: 10px;
+	background-color: antiquewhite;
+	border-radius: 15px;
+	animation: background-color 0.3s ease ;
+}
+.hero-content #login-button:hover {
+	background-color: azure;
+}
+
+/* Contact Us section starts here */
+
+.form {
+	display: block;
+	border: 1px solid white;
+	text-align: left;
+	width: 40%;
+}
